@@ -1,0 +1,100 @@
+body
+{
+    background-color: rgb(61, 61, 61);
+}
+ul.differ
+{
+    display: inline;
+    cursor: pointer;
+}
+li.list
+{
+    display: list-item;
+    text-align: center;
+    font-size: 15px;
+}
+
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button 
+{
+    background-color: rgb(139, 250, 139);
+    color: rgb(7, 7, 7);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover 
+{
+    opacity: 0.8;
+}
+
+.cancelbtn 
+{
+    width: auto;
+    padding: 10px 18px;
+    background-color:rgb(139, 250, 139);
+}
+
+.imgcontainer 
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar 
+{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.container
+ {
+    padding: 16px;
+}
+
+span.psw 
+{
+    float: right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) 
+{
+    span.psw
+    {
+       display: block;
+       float: none;
+    }
+    .cancelbtn 
+    {
+       width: 100%;
+    }
+}
+a.pass
+{
+    color: rgb(139, 250, 139);
+}
+.logcontainer
+{
+    width: 700px;
+    height: 600px;
+    margin: 200px auto 570px;
+    
+}
+h1
+{
+    color: rgb(139, 250, 139);
+    text-align: center;
+    font-size: 50px;
+}

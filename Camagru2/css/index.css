@@ -1,0 +1,110 @@
+body
+{
+    background-color: rgb(61, 61, 61);
+}
+.page
+{
+    margin: 0 auto;
+    width: 1420px;
+}
+.booth
+{
+    background-color: #909090;
+    margin: 0 auto;
+    width: 400px;
+    border: 10px solid rgb(50, 83, 102);
+    float: left;
+    
+}
+.booth-capture-button
+{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgb(50, 83, 102);
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+}
+#canvas
+{
+    display: none;
+}
+h1
+{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(139, 250, 139);
+}
+.sidebar{
+    background-color: yellow;
+    width: 200px;
+    height: 300px;
+    float: center;
+    text-align: center;
+    display: block;
+    margin: 100px 0 0 -150px;
+    padding: 15px 0 0 32px;
+}
+.navigatorbar
+{
+    font-size: medium;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 10px;
+}
+ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+ul li 
+{
+	display: inline;
+	cursor:pointer;
+}
+ul li a 
+{
+	font-size: medium;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+	color: white;
+	display: inline;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0px;
+}
+.gallery
+{
+    font-size: x-large;
+    font-weight: bold;
+    height: 40px;
+    margin: 300px auto 500px;
+    border-radius: 10px;
+}
+a.gall
+{
+    color: rgb(139, 250, 139);
+}
+p
+{
+    color: white;
+}
+.camera
+{
+    background-color: #909090;
+    margin: 0 auto;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+.g
+{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
